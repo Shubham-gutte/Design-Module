@@ -140,7 +140,9 @@ body {
 }
 @media (max-width: 820px) {
   .container1 {
-    margin: 40px;
+    justify-content: center;
+  align-content: center;
+    margin: 20px;
     height: 100%;
   }
   .container1 .content {
