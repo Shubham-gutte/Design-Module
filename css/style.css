@@ -610,7 +610,9 @@ hr {
     font-size: 12px;
   }
   .moduleleft {
-    height: 500px;
+       align-items: center;
+    justify-content: center;
+    height: 600px;
   }
   .moduleright {
     height: 400px;
@@ -622,9 +624,8 @@ hr {
     font-size: 22px;
   }
   .module_left_contet {
-   align-items: center;
-    justify-content: center;
-    height: 600px;
+
+    height: 500px;
     margin: 20px;
     padding: 20px;
   }
@@ -634,16 +635,23 @@ hr {
   .module_left_contet p {
     font-size: 12px;
   }
+  .thanking h1 {
+ font-size:22px
+}
 }
 
 @media (max-width: 480px) {
   .moduleright {
     height: 400px;
   }
-  .module_left_contet {
-     align-items: center;
+  .moduleleft {
+      align-items: center;
     justify-content: center;
     height: 600px;
+  }
+  .module_left_contet {
+    
+    height: 500px;
     padding: 10px;
     margin: 20px;
   }
