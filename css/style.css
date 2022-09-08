@@ -655,9 +655,7 @@ hr {
 }
 
 @media (min-width: 360px) {
-  .heading h2 {
-    font-size: 14px;
-  }
+ 
   .para {
     font-size: 12px;
   }
